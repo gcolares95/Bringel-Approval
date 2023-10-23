@@ -1,0 +1,32 @@
+/* Jurisdiction Table */
+#tb_jurisdictions > thead {
+  background: #484646;
+}
+
+#tb_jurisdictions > thead th {
+  color: #FFFFFF;
+}
+
+#tb_jurisdictions input {
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+}
+
+#tb_jurisdictions #valuesContainer {
+  display: flex;
+}
+
+/* Button add new Jurisdiction */
+#addJurisdiction {
+  margin: 2rem 0;
+}
+
+.error {
+  border-color: red !important;
+}
+
+.flaticon-trash:hover {
+  color: red;
+  cursor: pointer;
+}
